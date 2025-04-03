@@ -1,0 +1,1 @@
+# mqs-schoolmanagement-api
