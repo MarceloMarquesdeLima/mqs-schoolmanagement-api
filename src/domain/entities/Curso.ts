@@ -1,3 +1,7 @@
+import { Aluno } from "./Aluno";
+import { GradeCurricular } from "./GradeCurricular";
+import { Materia } from "./Materia";
+
 @Entity()
 export class Curso {
   @PrimaryGeneratedColumn()
@@ -8,9 +12,6 @@ export class Curso {
 
   @OneToMany(() => Materia, materia => materia.curso)
   materias: Materia[];
-
-  @OneToMany(() => Aluno, aluno => aluno.curso)
-  alunos: Aluno[];
 
   @OneToOne(() => GradeCurricular, gradeCurricular => gradeCurricular.curso)
   gradeCurricular: GradeCurricular;

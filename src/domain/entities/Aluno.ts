@@ -1,3 +1,6 @@
+import { AcompanhamentoPresenca } from "./AcompanhamentoPresenca";
+import { Curso } from "./Curso";
+
 @Entity()
 export class Aluno {
   @PrimaryGeneratedColumn()

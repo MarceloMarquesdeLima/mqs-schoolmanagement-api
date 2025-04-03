@@ -1,3 +1,6 @@
+import { Curso } from "./Curso";
+import { Materia } from "./Materia";
+
 @Entity()
 export class GradeCurricular {
   @PrimaryGeneratedColumn()

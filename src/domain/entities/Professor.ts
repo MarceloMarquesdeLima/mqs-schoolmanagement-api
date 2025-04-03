@@ -1,3 +1,5 @@
+import { Materia } from "./Materia";
+
 @Entity()
 export class Professor {
   @PrimaryGeneratedColumn()

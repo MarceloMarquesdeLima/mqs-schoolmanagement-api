@@ -1,3 +1,6 @@
+import { Aluno } from "./Aluno";
+import { Curso } from "./Curso";
+
 @Entity()
 export class AcompanhamentoPresenca {
   @PrimaryGeneratedColumn()
@@ -6,14 +9,8 @@ export class AcompanhamentoPresenca {
   @ManyToOne(() => Aluno, aluno => aluno.presencas)
   aluno: Aluno;
 
-  @ManyToOne(() => Curso, curso => curso.alunos)
-  curso: Curso;
-
   @Column()
   data: Date;
-
-  @Column()
-  presente: boolean;
 }
 
 function Entity(): (target: typeof AcompanhamentoPresenca) => void | typeof AcompanhamentoPresenca {
