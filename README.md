@@ -1,3 +1,6 @@
 # MQS-School Management API
 
-![image](https://github.com/user-attachments/assets/f9bc8adc-d212-4133-8360-0cf2171d5a12)
+* Estrutura CQRS da API
+
+![image](https://github.com/user-attachments/assets/cb2272be-9240-42b6-a303-ee03912dd759)
+
