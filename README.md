@@ -1,1 +1,1 @@
-# mqs-schoolmanagement-api
+# MQS-School Management API
