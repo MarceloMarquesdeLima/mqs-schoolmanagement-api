@@ -2,5 +2,5 @@
 
 * Estrutura CQRS da API
 
-![image](https://github.com/user-attachments/assets/cb2272be-9240-42b6-a303-ee03912dd759)
+![image](https://github.com/user-attachments/assets/a4e500c5-b1b1-482f-bd5a-2dc0e22a745e)
 
